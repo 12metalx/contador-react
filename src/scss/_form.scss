@@ -1,8 +1,12 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+}
 #form{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    width: 100vw;
+    width: 50vw;
     
     font-size: 1.2rem;
     margin-top: 1rem;
